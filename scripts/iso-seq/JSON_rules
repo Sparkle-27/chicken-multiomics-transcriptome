@@ -1,0 +1,42 @@
+
+
+{
+    "full-splice_match": [
+        {
+            "perc_A_downstream_TTS":[0,59],
+            "RTS_stage":"FALSE"
+        }
+    ],
+    "incomplete-splice_match":[
+        {
+            "RTS_stage":"FALSE",
+            "perc_A_downstream_TTS":[0,59],
+            "ratio_TSS": 1.5
+        }
+    ],
+    "novel_in_catalog":[
+        {
+            "min_cov": 10,
+            "perc_A_downstream_TTS":[0,59],
+            "ratio_TSS": 1.5,
+            "RTS_stage":"FALSE"
+        }
+    ],
+    "novel_not_in_catalog":[
+        {
+            "perc_A_downstream_TTS":[0,59],
+            "ratio_TSS": 1.5,
+            "RTS_stage":"FALSE",
+            "min_cov": 10
+        }
+    ],
+    "rest": [
+        {
+            "RTS_stage":"FALSE",
+            "all_canonical":"canonical",
+            "coding": "coding",
+            "perc_A_downstream_TTS":[0,59],
+            "exons": 2
+        }
+     ]
+}
