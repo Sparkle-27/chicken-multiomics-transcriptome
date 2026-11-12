@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Adapted from script/21-ccs2Isoform-s2.sh. Provide the matching bulk FLNC input.
+# Provide the matching bulk FLNC input.
 set -euo pipefail
 if [[ $# -ne 5 ]]; then
     echo "Usage: $0 clustered.bam GRCg7b.fa flnc_input_for_collapse threads output_prefix" >&2
