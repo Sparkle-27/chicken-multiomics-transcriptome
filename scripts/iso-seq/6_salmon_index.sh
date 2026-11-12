@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Adapted from script/22-isoformQuant.sh. Use the confirmed high-confidence GTF.
+# Use the confirmed high-confidence GTF.
 set -euo pipefail
 if [[ $# -ne 4 ]]; then
     echo "Usage: $0 final_catalog.gtf GRCg7b.fa threads output_prefix" >&2
