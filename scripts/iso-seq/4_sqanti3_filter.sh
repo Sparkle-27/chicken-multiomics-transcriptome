@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Adapted from 11-script/22-SQANTI3-QC-s1-v2.bash. Supply the actual study rules JSON.
+# Supply the actual study rules JSON.
 set -euo pipefail
 if [[ $# -ne 9 ]]; then
     echo "Usage: $0 SQANTI3_directory isoforms.gtf Ensembl110.gtf GRCg7b.fa FL_counts short_reads_list rules.json threads output_prefix" >&2
