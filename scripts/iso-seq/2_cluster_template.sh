@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Methods and the commented cluster2 command in script/21-ccs2Isoform-s1.sh.
+# isoseq cluster2
 set -euo pipefail
 if [[ $# -ne 4 || ( ${1:-} != cluster && ${1:-} != cluster2 ) ]]; then
     echo "Usage: $0 confirmed_subcommand(cluster|cluster2) flnc_input threads output.clustered.bam" >&2
