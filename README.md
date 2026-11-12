@@ -11,7 +11,7 @@ Taihe Silky chickens and fast-growing commercial broilers. Publicly available
 whole-genome sequencing data from additional chicken populations were also
 included.
 
-## Study overview
+## 1. Study overview
 
 The dataset comprises:
 
@@ -33,9 +33,9 @@ The four tissues examined were:
 The study design, sample selection, and data sources are described in the
 associated manuscript and its supplementary tables.
 
-## Whole-genome sequencing data
+## 2. Whole-genome sequencing data
 
-### Data generated in this study
+### 2.1 Data generated in this study
 
 Whole-genome resequencing data were newly generated for 100 chickens:
 
@@ -46,7 +46,7 @@ The Taihe Silky samples included individuals from the core cohort and an
 additional cohort. Details of the cohorts and sample collection are provided
 in the manuscript and Table 1.
 
-### Publicly available data
+### 2.2 Publicly available data
 
 Previously published whole-genome resequencing data from 96 chickens were
 included in the analysis:
@@ -60,7 +60,7 @@ These BioProjects contain samples beyond those included in the present study.
 The specific samples used here are listed in the manuscript and associated
 sample metadata.
 
-## Repository contents
+## 3. Repository contents
 
 The repository is organized into the following sections:
 
@@ -87,9 +87,9 @@ The repository is organized into the following sections:
 Detailed descriptions of the scripts, input files, software versions, and
 execution steps are provided in the corresponding directories.
 
-## Data availability
+## 4. Data availability
 
-### Newly generated sequencing data
+### 4.1 Newly generated sequencing data
 
 The sequencing data generated in this study have been submitted to
 [repository name].
@@ -99,7 +99,7 @@ The sequencing data generated in this study have been submitted to
 - Short-read RNA-seq data accession: **subSAM180499**
 - PacBio Iso-Seq data accession: **subSAM182103**
 
-### Public sequencing data
+### 4.2 Public sequencing data
 
 The previously published whole-genome resequencing datasets are available from:
 
@@ -108,7 +108,7 @@ The previously published whole-genome resequencing datasets are available from:
 - White Plymouth Rock chickens:
   [BioProject PRJNA552722](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA552722).
 
-### Processed data
+### 4.3 Processed data
 
 Processed data and supporting files are available at:
 
@@ -120,29 +120,29 @@ Processed data and supporting files are available at:
 - Differential expression results: **[add repository path or link]**
 - Other supporting files: **[add repository path or link]**
 
-## Reproducing the analyses
+## 5. Reproducing the analyses
 
 The analysis scripts are grouped by data type and analysis step. Before running
 the scripts:
 
-1. Download the required sequencing data and reference files.
-2. Install the software versions specified in the manuscript and script
+(1) Download the required sequencing data and reference files.
+(2) Install the software versions specified in the manuscript and script
    documentation.
-3. Update input paths and analysis parameters in the relevant configuration
+(3) Update input paths and analysis parameters in the relevant configuration
    files or scripts.
-4. Run the scripts in the order described in each analysis directory.
+(4) Run the scripts in the order described in each analysis directory.
 
 The reference genome assembly used in this study was **GRCg7b**, with
 Ensembl annotation release 110. Additional reference files and analysis
 parameters are specified in the manuscript and relevant scripts.
 
-## References for publicly available data
+## 6. References for publicly available data
 
-1. Qanbari S, Rubin C-J, Maqbool K, et al. Genetics of adaptation in modern
+(1) Qanbari S, Rubin C-J, Maqbool K, et al. Genetics of adaptation in modern
    chicken. *PLoS Genetics*. 2019;15(4):e1007989.
    https://doi.org/10.1371/journal.pgen.1007989
 
-2. Guo Y, Lillie M, Zan Y, et al. A genomic inference of the White Plymouth Rock
+(2) Guo Y, Lillie M, Zan Y, et al. A genomic inference of the White Plymouth Rock
    genealogy. *Poultry Science*. 2019;98(11):5272–5280.
    https://doi.org/10.3382/ps/pez411
 
