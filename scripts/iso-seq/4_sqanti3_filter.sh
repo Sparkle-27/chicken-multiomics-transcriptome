@@ -11,7 +11,7 @@ reference_gtf=$3
 reference_fasta=$4
 fl_counts=$5
 short_reads=$6
-rules=$7
+json_rules=$7
 threads=$8
 prefix=$9
 if [[ ! -s "$rules" ]]; then
@@ -29,4 +29,4 @@ python3 "$sqanti/sqanti3_qc.py" "$isoforms" "$reference_gtf" "$reference_fasta" 
 cd "$out_dir"
 python3 "$sqanti/sqanti3_filter.py" rules \
     --isoforms "${name}_corrected.fasta" --gtf "${name}_corrected.gtf" \
-    --faa "${name}_corrected.faa" --json_filter "$rules" "${name}_classification.txt"
+    --faa "${name}_corrected.faa" --json_filter "$json_rules" "${name}_classification.txt"
