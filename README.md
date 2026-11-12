@@ -71,9 +71,7 @@ The repository is organized into the following sections:
 │   ├── wgs/
 │   ├── short_read_rnaseq/
 │   ├── long_read_isoseq/
-│   ├── differential_expression/
 │   └── figures/
-├── config/
 ├── metadata/
 └── results/
 ```
