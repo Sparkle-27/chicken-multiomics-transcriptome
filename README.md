@@ -125,12 +125,12 @@ Processed data and supporting files are available at:
 The analysis scripts are grouped by data type and analysis step. Before running
 the scripts:
 
-(1) Download the required sequencing data and reference files.
+(1) Download the required sequencing data and reference files.  
 (2) Install the software versions specified in the manuscript and script
-   documentation.
+   documentation.  
 (3) Update input paths and analysis parameters in the relevant configuration
-   files or scripts.
-(4) Run the scripts in the order described in each analysis directory.
+   files or scripts.  
+(4) Run the scripts in the order described in each analysis directory.  
 
 The reference genome assembly used in this study was **GRCg7b**, with
 Ensembl annotation release 110. Additional reference files and analysis
