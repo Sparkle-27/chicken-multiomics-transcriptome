@@ -1,0 +1,11 @@
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.vcf
+*.bai
+*.cram
+*.log
+*.err
+*.RData
+*.Rhistory
