@@ -1,0 +1,17 @@
+condition	breed	tissue	stage	FSM	ISM	NIC	NNC	Other	Total
+AA-F	CB	VAF	post_collapse_pre_filter	9094	49103	29641	34100	38708	160646
+AA-F	CB	VAF	rules_filtered_pre_rescue	7258	14285	10057	5198	1473	38271
+AA-G	CB	LIV	post_collapse_pre_filter	2694	18794	7858	9684	6979	46009
+AA-G	CB	LIV	rules_filtered_pre_rescue	2143	5472	3057	1938	310	12920
+AA-T	CB	GM	post_collapse_pre_filter	5029	44515	23433	32622	33225	138824
+AA-T	CB	GM	rules_filtered_pre_rescue	3836	13157	3986	2171	1271	24421
+AA-X	CB	BM	post_collapse_pre_filter	6703	27755	13209	17994	11962	77623
+AA-X	CB	BM	rules_filtered_pre_rescue	5438	8536	4740	2865	1226	22805
+WJ-F	TS	VAF	post_collapse_pre_filter	11207	30155	25059	32713	15521	114655
+WJ-F	TS	VAF	rules_filtered_pre_rescue	9040	9592	11932	5748	1499	37811
+WJ-G	TS	LIV	post_collapse_pre_filter	4713	33678	19785	25678	20205	104059
+WJ-G	TS	LIV	rules_filtered_pre_rescue	3769	10879	6442	3256	963	25309
+WJ-T	TS	GM	post_collapse_pre_filter	5267	38130	21227	29303	30048	123975
+WJ-T	TS	GM	rules_filtered_pre_rescue	3990	10675	4519	2465	1209	22858
+WJ-X	TS	BM	post_collapse_pre_filter	7668	22193	16087	25498	13087	84533
+WJ-X	TS	BM	rules_filtered_pre_rescue	6150	7077	5703	3701	1427	24058
